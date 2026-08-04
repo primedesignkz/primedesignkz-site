@@ -1,0 +1,27 @@
+# Черновик из Claude — не деплоим (1.5 МБ)
+artifact.html
+
+# Vercel
+.vercel/
+
+# Системный мусор
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*~
+
+# Логи и зависимости (на будущее)
+node_modules/
+npm-debug.log*
+*.log
+
+# Локальные переменные окружения
+.env
+.env.local
+.env*.local

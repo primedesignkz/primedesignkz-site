@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+  <url>
+    <loc>https://primedesign.kz/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://primedesign.kz/"/>
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://primedesign.kz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://primedesign.kz/"/>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/logo.png</image:loc>
+      <image:title>Prime Design — проектная компания</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc>
+      <image:title>ЖК «Аллея 1 Бизнес» — проект Prime Design, Астана, 42 500 м²</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#services</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#projects</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#competence</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#method</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#company</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#faq</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/#contact</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
