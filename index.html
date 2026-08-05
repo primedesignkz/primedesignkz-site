@@ -71,6 +71,7 @@
 <link rel="preconnect" href="https://formsubmit.co" crossorigin>
 <link rel="dns-prefetch" href="https://wa.me">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="images/allee-1.webp" as="image" type="image/webp" fetchpriority="high" />
 <link rel="preload" href="images/allee-1.jpg" as="image" fetchpriority="high" />
 
 <link rel="stylesheet" href="styles.css" />
@@ -276,7 +277,10 @@
 <header class="nav" id="nav">
   <div class="nav__inner container">
     <a href="#top" class="nav__logo" aria-label="Prime Design">
-      <img src="images/logo.png" alt="Prime Design" />
+      <picture>
+        <source srcset="images/logo.webp" type="image/webp" />
+        <img src="images/logo.png" alt="Prime Design" />
+      </picture>
     </a>
     <nav class="nav__menu" aria-label="Разделы">
       <a href="#services">Услуги</a>
@@ -379,7 +383,7 @@
               <span>Featured project</span>
               <em>· 2024</em>
             </div>
-            <div class="featured-project__image" style="background-image:url('images/allee-1.jpg')" role="img" aria-label="ЖК «Auez бизнес», Астана"></div>
+            <div class="featured-project__image" style="background-image:url('images/allee-1.jpg');background-image:image-set(url('images/allee-1.webp') type('image/webp'), url('images/allee-1.jpg') type('image/jpeg'))" role="img" aria-label="ЖК «Auez бизнес», Астана"></div>
             <div class="featured-project__body">
               <div class="featured-project__meta">
                 <span>Жилой комплекс</span>
@@ -815,7 +819,7 @@
     <div class="proj-grid">
 
       <article class="proj" data-cat="resi">
-        <div class="proj__img" style="background-image:url('images/lavita-1.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/lavita-1.jpg');background-image:image-set(url('images/lavita-1.webp') type('image/webp'), url('images/lavita-1.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Жилой комплекс</span><span>г. Астана</span></div>
           <h3 class="proj__title">ЖК «Lavita&nbsp;E»</h3>
@@ -826,7 +830,7 @@
       </article>
 
       <article class="proj" data-cat="resi">
-        <div class="proj__img" style="background-image:url('images/allee-1.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/allee-1.jpg');background-image:image-set(url('images/allee-1.webp') type('image/webp'), url('images/allee-1.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Жилой комплекс</span><span>г. Астана</span></div>
           <h3 class="proj__title">ЖК «Auez&nbsp;Business»</h3>
@@ -838,7 +842,7 @@
       </article>
 
       <article class="proj" data-cat="resi">
-        <div class="proj__img" style="background-image:url('images/4you-2.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/4you-2.jpg');background-image:image-set(url('images/4you-2.webp') type('image/webp'), url('images/4you-2.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Жилой комплекс</span><span>г. Шымкент</span></div>
           <h3 class="proj__title">ЖК «4YOU»</h3>
@@ -849,7 +853,7 @@
       </article>
 
       <article class="proj" data-cat="resi review">
-        <div class="proj__img" style="background-image:url('images/maftun.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/maftun.jpg');background-image:image-set(url('images/maftun.webp') type('image/webp'), url('images/maftun.jpg') type('image/jpeg'))"></div>
         <span class="proj__badge">Design Review</span>
         <div class="proj__body">
           <div class="proj__meta"><span>Жилой + ТРК</span><span>г. Ташкент</span></div>
@@ -861,7 +865,7 @@
       </article>
 
       <article class="proj" data-cat="commercial">
-        <div class="proj__img" style="background-image:url('images/sitrak.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/sitrak.jpg');background-image:image-set(url('images/sitrak.webp') type('image/webp'), url('images/sitrak.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Автомобильный центр</span><span>г. Астана</span></div>
           <h3 class="proj__title">Sales &amp; Service Center SITRAK</h3>
@@ -872,7 +876,7 @@
       </article>
 
       <article class="proj" data-cat="commercial review">
-        <div class="proj__img" style="background-image:url('images/grandpark-2.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/grandpark-2.jpg');background-image:image-set(url('images/grandpark-2.webp') type('image/webp'), url('images/grandpark-2.jpg') type('image/jpeg'))"></div>
         <span class="proj__badge">Design Review</span>
         <div class="proj__body">
           <div class="proj__meta"><span>НВФ + ТР</span><span>г. Шымкент</span></div>
@@ -884,7 +888,7 @@
       </article>
 
       <article class="proj" data-cat="commercial">
-        <div class="proj__img" style="background-image:url('images/magnum-astana.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/magnum-astana.jpg');background-image:image-set(url('images/magnum-astana.webp') type('image/webp'), url('images/magnum-astana.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Благоустройство ТЦ</span><span>г. Астана</span></div>
           <h3 class="proj__title">ТЦ «Магнум»&nbsp;— Астана</h3>
@@ -895,7 +899,7 @@
       </article>
 
       <article class="proj" data-cat="commercial">
-        <div class="proj__img" style="background-image:url('images/magnum-almaty.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/magnum-almaty.jpg');background-image:image-set(url('images/magnum-almaty.webp') type('image/webp'), url('images/magnum-almaty.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Благоустройство ТЦ</span><span>г. Алматы</span></div>
           <h3 class="proj__title">ТЦ «Магнум»&nbsp;— Алматы</h3>
@@ -906,7 +910,7 @@
       </article>
 
       <article class="proj" data-cat="public review">
-        <div class="proj__img" style="background-image:url('images/depo-real.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/depo-real.jpg');background-image:image-set(url('images/depo-real.webp') type('image/webp'), url('images/depo-real.jpg') type('image/jpeg'))"></div>
         <span class="proj__badge">Design Review</span>
         <div class="proj__body">
           <div class="proj__meta"><span>ЖД-инфраструктура</span><span>г. Астана</span></div>
@@ -918,7 +922,7 @@
       </article>
 
       <article class="proj" data-cat="public">
-        <div class="proj__img" style="background-image:url('images/school-farabi-1.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/school-farabi-1.jpg');background-image:image-set(url('images/school-farabi-1.webp') type('image/webp'), url('images/school-farabi-1.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Образование</span><span>г. Атырау</span></div>
           <h3 class="proj__title">Школа Аль-Фараби</h3>
@@ -929,7 +933,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/komatsu.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/komatsu.jpg');background-image:image-set(url('images/komatsu.webp') type('image/webp'), url('images/komatsu.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Сервисный центр</span><span>г. Астана</span></div>
           <h3 class="proj__title">Komatsu&nbsp;— СЦ полного&nbsp;цикла</h3>
@@ -941,7 +945,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/ges-kalzhyr.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/ges-kalzhyr.jpg');background-image:image-set(url('images/ges-kalzhyr.webp') type('image/webp'), url('images/ges-kalzhyr.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Энергетика</span><span>ВКО, Маркакольский район</span></div>
           <h3 class="proj__title">Строительство ГЭС на&nbsp;реке&nbsp;Калжир</h3>
@@ -953,7 +957,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/qarmet-2.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/qarmet-2.jpg');background-image:image-set(url('images/qarmet-2.webp') type('image/webp'), url('images/qarmet-2.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Промышленность</span><span>АО&nbsp;Qarmet</span></div>
           <h3 class="proj__title">ККЦ&nbsp;— трубопровод природного&nbsp;газа</h3>
@@ -965,7 +969,7 @@
       </article>
 
       <article class="proj" data-cat="public">
-        <div class="proj__img" style="background-image:url('images/school-semey.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/school-semey.jpg');background-image:image-set(url('images/school-semey.webp') type('image/webp'), url('images/school-semey.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Образование</span><span>г. Семей</span></div>
           <h3 class="proj__title">Школа на&nbsp;2&nbsp;000 мест</h3>
@@ -973,7 +977,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/logistics-1.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/logistics-1.jpg');background-image:image-set(url('images/logistics-1.webp') type('image/webp'), url('images/logistics-1.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Логистика</span><span>трасса Астана&nbsp;— Караганда</span></div>
           <h3 class="proj__title">Коммунально-складской комплекс</h3>
@@ -984,7 +988,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/tlc-2.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/tlc-2.jpg');background-image:image-set(url('images/tlc-2.webp') type('image/webp'), url('images/tlc-2.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>ТЛЦ</span><span>г. Шымкент</span></div>
           <h3 class="proj__title">Транспортно-логистический&nbsp;центр</h3>
@@ -995,7 +999,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/fgp.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/fgp.jpg');background-image:image-set(url('images/fgp.webp') type('image/webp'), url('images/fgp.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Нефтегаз · ПБР</span><span>FGP-WPMP</span></div>
           <h3 class="proj__title">Проект будущего расширения&nbsp;и управления устьевым&nbsp;давлением</h3>
@@ -1003,7 +1007,7 @@
       </article>
 
       <article class="proj" data-cat="industrial">
-        <div class="proj__img" style="background-image:url('images/gas-atyrau.jpg')"></div>
+        <div class="proj__img" style="background-image:url('images/gas-atyrau.jpg');background-image:image-set(url('images/gas-atyrau.webp') type('image/webp'), url('images/gas-atyrau.jpg') type('image/jpeg'))"></div>
         <div class="proj__body">
           <div class="proj__meta"><span>Нефтегаз</span><span>г. Атырау</span></div>
           <h3 class="proj__title">Интегрированный газохимический комплекс, Фаза&nbsp;2</h3>
@@ -1290,7 +1294,10 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__top">
-      <img src="images/logo.png" alt="Prime Design" class="footer__logo" />
+      <picture>
+        <source srcset="images/logo.webp" type="image/webp" />
+        <img src="images/logo.png" alt="Prime Design" class="footer__logo" />
+      </picture>
       <div class="footer__legal">
         <div>ТОО «Prime Design»</div>
         <div>Проектная компания. Лицензии 1&nbsp;категории РК&nbsp;и&nbsp;РУз.</div>
