@@ -4,60 +4,113 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
   <url>
     <loc>https://primedesign.kz/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://primedesign.kz/"/>
     <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://primedesign.kz/"/>
+    <xhtml:link rel="alternate" hreflang="ru-UZ" href="https://primedesign.kz/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://primedesign.kz/"/>
     <image:image>
       <image:loc>https://primedesign.kz/images/logo.png</image:loc>
       <image:title>Prime Design — проектная компания</image:title>
+      <image:caption>Логотип Prime Design</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc>
-      <image:title>ЖК «Аллея 1 Бизнес» — проект Prime Design, Астана, 42 500 м²</image:title>
+      <image:title>ЖК «Auez Business», Астана, 42 500 м²</image:title>
+      <image:caption>Проект жилого комплекса Prime Design</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/lavita-1.jpg</image:loc>
+      <image:title>ЖК «Lavita E» — жилой комплекс в Астане</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/sitrak.jpg</image:loc>
+      <image:title>Sales & Service Center SITRAK — Астана</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/school-farabi-1.jpg</image:loc>
+      <image:title>Школа Аль-Фараби (НИШ Атырау)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/ges-kalzhyr.jpg</image:loc>
+      <image:title>ГЭС на реке Калжир — 19 МВт</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/central-asia-map.svg</image:loc>
+      <image:title>География проектов Prime Design в Центральной Азии</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://primedesign.kz/#services</loc>
-    <lastmod>2026-07-30</lastmod>
+    <loc>https://primedesign.kz/proektirovanie-zhk/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc>
+      <image:title>Проектирование ЖК — Prime Design</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/lavita-1.jpg</image:loc>
+      <image:title>ЖК Lavita E — проект Prime Design</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/maftun.jpg</image:loc>
+      <image:title>ЖК Мафтун Макон 4, Ташкент</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://primedesign.kz/bim-proektirovanie/</loc>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://primedesign.kz/#projects</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://primedesign.kz/avtorsky-nadzor/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://primedesign.kz/#competence</loc>
-    <lastmod>2026-07-30</lastmod>
+    <loc>https://primedesign.kz/proektirovanie-promyshlennyh-obyektov/</loc>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/sitrak.jpg</image:loc>
+      <image:title>Sales & Service Center SITRAK</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/ges-kalzhyr.jpg</image:loc>
+      <image:title>ГЭС на реке Калжир, ВКО</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/qarmet-2.jpg</image:loc>
+      <image:title>ККЦ АО Qarmet — реконструкция</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://primedesign.kz/#method</loc>
-    <lastmod>2026-07-30</lastmod>
+    <loc>https://primedesign.kz/proektirovanie-obshchestvennyh-zdaniy/</loc>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/school-farabi-1.jpg</image:loc>
+      <image:title>Школа Аль-Фараби НИШ Атырау</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/school-semey.jpg</image:loc>
+      <image:title>Школа на 2000 мест, Семей</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://primedesign.kz/images/grandpark-2.jpg</image:loc>
+      <image:title>Grandpark Terra 2, Астана</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://primedesign.kz/#company</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://primedesign.kz/#faq</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://primedesign.kz/#contact</loc>
-    <lastmod>2026-07-30</lastmod>
+    <loc>https://primedesign.kz/design-review/</loc>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

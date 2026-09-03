@@ -1,6 +1,9 @@
 # Черновик из Claude — не деплоим (1.5 МБ)
 artifact.html
 
+# Архивы (входящие zip-обновления)
+*.zip
+
 # Vercel
 .vercel/
 
