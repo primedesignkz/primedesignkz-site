@@ -2,116 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+
+  <!-- Homepage — all 5 languages -->
   <url>
     <loc>https://primedesign.kz/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://primedesign.kz/"/>
-    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://primedesign.kz/"/>
-    <xhtml:link rel="alternate" hreflang="ru-UZ" href="https://primedesign.kz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primedesign.kz/en/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://primedesign.kz/kk/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://primedesign.kz/uz/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://primedesign.kz/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://primedesign.kz/"/>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/logo.png</image:loc>
-      <image:title>Prime Design — проектная компания</image:title>
-      <image:caption>Логотип Prime Design</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc>
-      <image:title>ЖК «Auez Business», Астана, 42 500 м²</image:title>
-      <image:caption>Проект жилого комплекса Prime Design</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/lavita-1.jpg</image:loc>
-      <image:title>ЖК «Lavita E» — жилой комплекс в Астане</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/sitrak.jpg</image:loc>
-      <image:title>Sales & Service Center SITRAK — Астана</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/school-farabi-1.jpg</image:loc>
-      <image:title>Школа Аль-Фараби (НИШ Атырау)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/ges-kalzhyr.jpg</image:loc>
-      <image:title>ГЭС на реке Калжир — 19 МВт</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/central-asia-map.svg</image:loc>
-      <image:title>География проектов Prime Design в Центральной Азии</image:title>
-    </image:image>
+    <image:image><image:loc>https://primedesign.kz/images/logo.png</image:loc><image:title>Prime Design — проектная компания</image:title></image:image>
+    <image:image><image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc><image:title>ЖК «Auez Business», Астана</image:title></image:image>
   </url>
+  <url><loc>https://primedesign.kz/en/</loc><lastmod>2026-09-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://primedesign.kz/kk/</loc><lastmod>2026-09-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://primedesign.kz/uz/</loc><lastmod>2026-09-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://primedesign.kz/zh/</loc><lastmod>2026-09-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- Service landing pages -->
   <url>
     <loc>https://primedesign.kz/proektirovanie-zhk/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc>
-      <image:title>Проектирование ЖК — Prime Design</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/lavita-1.jpg</image:loc>
-      <image:title>ЖК Lavita E — проект Prime Design</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/maftun.jpg</image:loc>
-      <image:title>ЖК Мафтун Макон 4, Ташкент</image:title>
-    </image:image>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://primedesign.kz/proektirovanie-zhk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://primedesign.kz/en/proektirovanie-zhk/"/>
+    <xhtml:link rel="alternate" hreflang="kk" href="https://primedesign.kz/kk/proektirovanie-zhk/"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://primedesign.kz/uz/proektirovanie-zhk/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://primedesign.kz/zh/proektirovanie-zhk/"/>
+    <image:image><image:loc>https://primedesign.kz/images/allee-1.jpg</image:loc><image:title>Проектирование ЖК</image:title></image:image>
   </url>
-  <url>
-    <loc>https://primedesign.kz/bim-proektirovanie/</loc>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://primedesign.kz/avtorsky-nadzor/</loc>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <url><loc>https://primedesign.kz/bim-proektirovanie/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://primedesign.kz/avtorsky-nadzor/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url>
     <loc>https://primedesign.kz/proektirovanie-promyshlennyh-obyektov/</loc>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/sitrak.jpg</image:loc>
-      <image:title>Sales & Service Center SITRAK</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/ges-kalzhyr.jpg</image:loc>
-      <image:title>ГЭС на реке Калжир, ВКО</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/qarmet-2.jpg</image:loc>
-      <image:title>ККЦ АО Qarmet — реконструкция</image:title>
-    </image:image>
+    <lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+    <image:image><image:loc>https://primedesign.kz/images/sitrak.jpg</image:loc><image:title>Проектирование промышленных объектов</image:title></image:image>
   </url>
-  <url>
-    <loc>https://primedesign.kz/proektirovanie-obshchestvennyh-zdaniy/</loc>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/school-farabi-1.jpg</image:loc>
-      <image:title>Школа Аль-Фараби НИШ Атырау</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/school-semey.jpg</image:loc>
-      <image:title>Школа на 2000 мест, Семей</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://primedesign.kz/images/grandpark-2.jpg</image:loc>
-      <image:title>Grandpark Terra 2, Астана</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://primedesign.kz/design-review/</loc>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <url><loc>https://primedesign.kz/proektirovanie-obshchestvennyh-zdaniy/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://primedesign.kz/design-review/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://primedesign.kz/adaptaciya-zarubezhnyh-proektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Niche landing pages -->
+  <url><loc>https://primedesign.kz/proektirovanie-otelya/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://primedesign.kz/proektirovanie-medcentra/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://primedesign.kz/proektirovanie-restorana/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://primedesign.kz/blog/</loc><lastmod>2026-09-15</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://primedesign.kz/blog/chto-takoe-bim/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://primedesign.kz/blog/kak-vybrat-proektnuyu-kompaniyu/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://primedesign.kz/blog/stoimost-proektirovaniya-zhk/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://primedesign.kz/blog/avtorskiy-nadzor-obyazatelen-li/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://primedesign.kz/blog/gosudarstvennaya-ekspertiza-proekta/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Language variants of service landings -->
+  <url><loc>https://primedesign.kz/en/proektirovanie-zhk/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/en/bim-proektirovanie/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/en/avtorsky-nadzor/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/en/proektirovanie-promyshlennyh-obyektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/en/proektirovanie-obshchestvennyh-zdaniy/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/en/design-review/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/en/adaptaciya-zarubezhnyh-proektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/proektirovanie-zhk/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/bim-proektirovanie/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/avtorsky-nadzor/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/proektirovanie-promyshlennyh-obyektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/proektirovanie-obshchestvennyh-zdaniy/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/design-review/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/kk/adaptaciya-zarubezhnyh-proektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/proektirovanie-zhk/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/bim-proektirovanie/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/avtorsky-nadzor/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/proektirovanie-promyshlennyh-obyektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/proektirovanie-obshchestvennyh-zdaniy/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/design-review/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/uz/adaptaciya-zarubezhnyh-proektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/proektirovanie-zhk/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/bim-proektirovanie/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/avtorsky-nadzor/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/proektirovanie-promyshlennyh-obyektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/proektirovanie-obshchestvennyh-zdaniy/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/design-review/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://primedesign.kz/zh/adaptaciya-zarubezhnyh-proektov/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 </urlset>

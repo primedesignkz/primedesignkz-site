@@ -435,6 +435,60 @@
     });
   }
 
+  // ===== GTM DataLayer event tracking =====
+  window.dataLayer = window.dataLayer || [];
+  const trackEvent = (event, params) => {
+    window.dataLayer.push({ event, ...params });
+  };
+  // Track: CTA click "Опросный лист"
+  document.querySelectorAll('[data-open-modal="kp"], a[href*="#kp"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('cta_kp_open', { cta_location: el.closest('section, header, footer')?.className || 'unknown' }));
+  });
+  // Track: WhatsApp click
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('contact_whatsapp', {}));
+  });
+  // Track: Phone click
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('contact_phone', {}));
+  });
+  // Track: Email click
+  document.querySelectorAll('a[href^="mailto:"]').forEach(el => {
+    el.addEventListener('click', () => trackEvent('contact_email', {}));
+  });
+  // Track: KP form successful submit — hook into existing form logic
+  const kpFormEl = document.getElementById('kp-form');
+  if (kpFormEl) {
+    kpFormEl.addEventListener('submit', () => trackEvent('kp_form_submit', {}));
+  }
+  // Track: language switch
+  document.querySelectorAll('.nav__lang-menu a').forEach(el => {
+    el.addEventListener('click', () => trackEvent('language_switch', { target_lang: el.getAttribute('href').replace(/\//g, '') || 'ru' }));
+  });
+
+  // ===== Language switcher dropdown =====
+  const langBox = document.querySelector('.nav__lang');
+  if (langBox) {
+    const btn = langBox.querySelector('.nav__lang-btn');
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      langBox.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', langBox.classList.contains('is-open') ? 'true' : 'false');
+    });
+    document.addEventListener('click', (e) => {
+      if (!langBox.contains(e.target)) {
+        langBox.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langBox.classList.contains('is-open')) {
+        langBox.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
   // ===== Center geo-map on Astana initially (mobile) =====
   const geoViz = document.querySelector('.geo-map__viz');
   if (geoViz) {

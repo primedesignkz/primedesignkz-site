@@ -128,6 +128,31 @@ Prime Design реализует проекты пяти классов объе�
 - Промышленные и энергетические объекты: https://primedesign.kz/proektirovanie-promyshlennyh-obyektov/
 - Общественные здания (школы, БЦ, ТРЦ): https://primedesign.kz/proektirovanie-obshchestvennyh-zdaniy/
 - Design Review — экспертиза ПСД: https://primedesign.kz/design-review/
+- Адаптация зарубежных проектов в Казахстане: https://primedesign.kz/adaptaciya-zarubezhnyh-proektov/
+- Проектирование отелей: https://primedesign.kz/proektirovanie-otelya/
+- Проектирование медцентров и клиник: https://primedesign.kz/proektirovanie-medcentra/
+- Проектирование ресторанов: https://primedesign.kz/proektirovanie-restorana/
+
+## Экспертные статьи (блог)
+
+Prime Design ведёт блог с экспертными материалами по проектированию:
+
+- Блог: https://primedesign.kz/blog/
+- Что такое BIM-проектирование: https://primedesign.kz/blog/chto-takoe-bim/
+- Как выбрать проектную компанию (12 критериев): https://primedesign.kz/blog/kak-vybrat-proektnuyu-kompaniyu/
+- Стоимость проектирования ЖК в Казахстане: https://primedesign.kz/blog/stoimost-proektirovaniya-zhk/
+- Обязателен ли авторский надзор: https://primedesign.kz/blog/avtorskiy-nadzor-obyazatelen-li/
+- Государственная экспертиза проекта (пошаговое руководство): https://primedesign.kz/blog/gosudarstvennaya-ekspertiza-proekta/
+
+## Языковые версии сайта
+
+Сайт доступен на 5 языках. Ссылки на языковые версии главной:
+
+- Русский (основной): https://primedesign.kz/
+- English: https://primedesign.kz/en/
+- Қазақша: https://primedesign.kz/kk/
+- Oʻzbekcha: https://primedesign.kz/uz/
+- 中文: https://primedesign.kz/zh/
 
 ## Полный дамп сайта для LLM
 
